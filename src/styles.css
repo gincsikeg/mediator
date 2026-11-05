@@ -114,7 +114,7 @@ p { margin: 0 0 1em; }
   align-items: center;
   overflow: hidden;
 }
-.hero-img { position: absolute; top: 0; bottom: 0; left: 0; width: 116%; height: 100%; object-fit: cover; object-position: 50% 26%; }
+.hero-img { position: absolute; top: 0; bottom: 0; left: 2cm; width: 116%; height: 100%; object-fit: cover; object-position: 50% 26%; }
 .hero-veil {
   position: absolute; inset: 0;
   background: linear-gradient(105deg, rgba(20,60,50,0.92) 0%, rgba(20,60,50,0.72) 42%, rgba(20,60,50,0.12) 100%);
