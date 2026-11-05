@@ -94,8 +94,8 @@ export const services = [
     image: 'gina-meeting.png',
   },
   {
-    slug: 'alternativ-mediacio',
-    label: 'Alternatív mediáció',
+    slug: 'csapatepito-faultetes',
+    label: 'Csapatépítő faültetés',
     tagline: 'Faültető csapatépítés a természetben',
     symbol: '❦',
     short:
