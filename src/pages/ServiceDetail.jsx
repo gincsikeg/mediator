@@ -1,14 +1,47 @@
 import { useParams, Link } from 'react-router-dom'
-import { getService, services } from '../data/services.js'
+import { getService, getServices } from '../data/services.js'
 import { img } from '../lib/asset.js'
+import { useLang, localePath } from '../lib/i18n.jsx'
 import NotFound from './NotFound.jsx'
+
+const text = {
+  hu: {
+    about: 'Miről szól?',
+    forWhom: 'Kinek szól?',
+    forWhomTitle: 'Ez a szolgáltatás neked való, ha…',
+    process: 'A folyamat',
+    band: 'Foglalj időpontot telefonon.',
+    others: 'További szolgáltatások',
+    more: 'Tovább →',
+  },
+  en: {
+    about: 'What is it about?',
+    forWhom: 'Who is it for?',
+    forWhomTitle: 'This service is for you if…',
+    process: 'The process',
+    band: 'Book an appointment by phone.',
+    others: 'Other services',
+    more: 'More →',
+  },
+  it: {
+    about: 'Di cosa si tratta?',
+    forWhom: 'A chi si rivolge?',
+    forWhomTitle: 'Questo servizio fa per Lei se…',
+    process: 'Il percorso',
+    band: 'Prenoti un appuntamento per telefono.',
+    others: 'Altri servizi',
+    more: 'Scopri →',
+  },
+}
 
 export default function ServiceDetail() {
   const { slug } = useParams()
-  const service = getService(slug)
+  const lang = useLang()
+  const t = text[lang]
+  const service = getService(slug, lang)
   if (!service) return <NotFound />
 
-  const others = services.filter((s) => s.slug !== slug)
+  const others = getServices(lang).filter((s) => s.slug !== slug)
 
   return (
     <>
@@ -24,9 +57,9 @@ export default function ServiceDetail() {
         <div className="wrap">
           <div className={service.image ? 'split' : ''}>
             <div>
-              <span className="eyebrow">Miről szól?</span>
-              {[].concat(service.intro).map((t, j) => (
-                <p className="lead" style={{ marginTop: 12 }} key={j}>{t}</p>
+              <span className="eyebrow">{t.about}</span>
+              {[].concat(service.intro).map((p, j) => (
+                <p className="lead" style={{ marginTop: 12 }} key={j}>{p}</p>
               ))}
             </div>
             {service.image && (
@@ -42,8 +75,8 @@ export default function ServiceDetail() {
         <div className="wrap">
           <div className="split" style={{ alignItems: 'start' }}>
             <div>
-              <span className="eyebrow">Kinek szól?</span>
-              <h2 style={{ margin: '12px 0 20px' }}>Ez a szolgáltatás neked való, ha…</h2>
+              <span className="eyebrow">{t.forWhom}</span>
+              <h2 style={{ margin: '12px 0 20px' }}>{t.forWhomTitle}</h2>
               <ul className="check-list">
                 {service.forWhom.map((item) => (
                   <li key={item}>{item}</li>
@@ -51,13 +84,13 @@ export default function ServiceDetail() {
               </ul>
             </div>
             <div>
-              <span className="eyebrow">A folyamat</span>
+              <span className="eyebrow">{t.process}</span>
               <div className="steps" style={{ gridTemplateColumns: '1fr 1fr', marginTop: 20 }}>
-                {service.steps.map(([title, text], i) => (
+                {service.steps.map(([title, body], i) => (
                   <div className="step" key={title}>
                     <div className="step-num">{String(i + 1).padStart(2, '0')}</div>
                     <h4>{title}</h4>
-                    <p>{text}</p>
+                    <p>{body}</p>
                   </div>
                 ))}
               </div>
@@ -69,7 +102,7 @@ export default function ServiceDetail() {
       <section className="cta-band">
         <div className="wrap">
           <div>
-            <h3>Foglalj időpontot telefonon.</h3>
+            <h3>{t.band}</h3>
           </div>
           <a href="tel:+36706389702" className="btn btn-gold">+36 70 638 9702</a>
         </div>
@@ -78,15 +111,15 @@ export default function ServiceDetail() {
       <section className="section">
         <div className="wrap">
           <div className="section-head" style={{ marginBottom: 32 }}>
-            <span className="eyebrow">További szolgáltatások</span>
+            <span className="eyebrow">{t.others}</span>
           </div>
           <div className="svc-grid" style={{ gridTemplateColumns: '1fr 1fr' }}>
             {others.map((s) => (
-              <Link className="svc-card" to={`/szolgaltatasok/${s.slug}`} key={s.slug}>
+              <Link className="svc-card" to={localePath(`/szolgaltatasok/${s.slug}`, lang)} key={s.slug}>
                 <div className="svc-mark">{s.symbol}</div>
                 <h3>{s.label}</h3>
                 <p>{s.short}</p>
-                <span className="svc-more">Tovább →</span>
+                <span className="svc-more">{t.more}</span>
               </Link>
             ))}
           </div>

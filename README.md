@@ -71,7 +71,11 @@ visszaállítja az eredeti útvonalat. Neked ezzel nincs teendőd, csak a `base`
 ## Testreszabás
 
 - **Szövegek / szolgáltatások:** `src/data/services.js`
-- **Blogcikkek:** `src/data/posts.js`
+- **Nyelvek (magyar, angol, olasz):** a magyar oldal a gyökérben van (`/rolam`), az angol
+  `/en/...`, az olasz `/it/...` alatt. Minden oldal és komponens tetején egy `text` objektum
+  tartja a `hu` / `en` / `it` szövegeket – szövegmódosításkor mindhármat írd át.
+  A nyelvkezelés: `src/lib/i18n.jsx`.
+- **Blogcikkek:** `src/data/posts.js` (a blog csak magyarul van)
 - **Színek, betűk:** `src/styles.css` teteje (`:root` változók)
 - **Képek:** `public/images/` (cseréld le ugyanazokra a fájlnevekre)
 - **Kapcsolati űrlap e-mail címe:** `src/pages/Contact.jsx` – az `EMAIL` konstans.
