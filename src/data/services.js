@@ -119,7 +119,7 @@ export const services = [
 
 // Áraink – a Szolgáltatások oldalon és a részletező kártyákban jelenik meg.
 export const pricing = [
-  ['Válási, párkapcsolati mediáció', '20.000 Ft / fő / óra'],
+  ['Válási, válás utáni utókövetés mediáció', '20.000 Ft / fő / óra'],
   ['Pénzügyi, gazdasági mediáció', '50.000 Ft / óra'],
   ['Cégátvilágítás és faültető mediáció', 'egyedi igény alapján'],
 ]

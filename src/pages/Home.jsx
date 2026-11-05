@@ -17,7 +17,7 @@ export default function Home() {
         <div className="hero-veil" />
         <div className="wrap">
           <div className="hero-content">
-            <span className="eyebrow eyebrow-line">Pénzügyi · gazdasági · válási · párkapcsolati mediátor</span>
+            <span className="eyebrow eyebrow-line">Pénzügyi · gazdasági · válási mediátor</span>
             <h1>
               Jobb ma egy<br />mediáció, mint<br />
               <em>holnap egy per!</em>
@@ -58,7 +58,7 @@ export default function Home() {
           <div className="section-head">
             <span className="eyebrow">Mediációs szolgáltatásaink</span>
             <h2>Egy módszer minden helyzetre</h2>
-            <p>Akár üzleti vita, akár egy párkapcsolati csomó vagy egy szervezeti elakadás – ugyanaz a nyugodt, közvetítő hozzáállás.</p>
+            <p>Akár üzleti vita, akár egy válás utáni csomó vagy egy szervezeti elakadás – ugyanaz a nyugodt, közvetítő hozzáállás.</p>
           </div>
           <div className="svc-grid">
             {services.map((s) => (

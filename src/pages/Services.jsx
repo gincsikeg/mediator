@@ -9,7 +9,7 @@ export default function Services() {
         <div className="wrap">
           <span className="eyebrow eyebrow-line">Szolgáltatások</span>
           <p>
-            A pénzügyi és gazdasági mediációtól a párkapcsolati és válási helyzeteken
+            A pénzügyi és gazdasági mediációtól a válási és válás utáni helyzeteken
             át a szervezeti átvilágításig és a faültető csapatépítésig – mindegyikben a
             tiszta kép és a méltányos megegyezés a tét.
           </p>
