@@ -29,7 +29,7 @@ export default function About() {
         <div className="wrap">
           <div className="split">
             <div>
-              <span className="eyebrow">A hátterem</span>
+              <span className="eyebrow">Kis Georgina pénzügyi, válási mediátor</span>
               <p className="lead">
                 Mediátorként hajtóerőm, hogy minden szituációban tisztán lássák a felek
                 önmagukat. A kapcsolatok, folyamatok, hatáskörök és pénzügyek
