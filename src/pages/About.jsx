@@ -35,6 +35,25 @@ export default function About() {
                 profit- és kapcsolatgyilkos.
               </p>
               <p>
+                Mediátor gyakorlati képzésemet mentoromnál, Komán Csilla mediátornál
+                szereztem. Az Umathum mediátor alap- és haladó képzését követően
+                különösen foglalkoztatott a mediáció pénzügyi vetülete. 2024 óta az
+                Igazságügyi Minisztérium közvetítői jegyzékében bejegyzett mediátorként
+                szerepelek. Angolul és olaszul is mediálok.
+              </p>
+              <p>
+                Évtizedes pénzintézeti auditor és projektmenedzsment tapasztalatot
+                szereztem, jelenleg a KKV szektor pénzügyi átvilágításával foglalkozom.
+              </p>
+              <p>
+                Válási mediátorként különösen fontos a gyermekek érdekei mellett a
+                pénzügyi szempontokat is figyelemmel kísérni és kezelni.
+              </p>
+              <p>
+                Pénzügyi mesterdiplomámat és fenntarthatósági végzettségemet a Corvinus
+                Egyetemen szereztem. Faültető önkéntes vagyok.
+              </p>
+              <p>
                 Van egy helyzet, ami megérett arra, hogy külső támogatást kérj?
                 Időpontegyeztetés: <a href="tel:+36706389702">+36706389702</a>
               </p>
