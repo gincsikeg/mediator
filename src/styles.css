@@ -43,7 +43,7 @@ p { margin: 0 0 1em; }
 
 .eyebrow {
   font-family: var(--sans);
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: var(--gold);
