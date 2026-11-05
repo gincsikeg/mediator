@@ -29,7 +29,7 @@ export default function About() {
         <div className="wrap">
           <div className="split">
             <div>
-              <span className="eyebrow eyebrow-strong">Kis Georgina pénzügyi, válási mediátor</span>
+              <span className="eyebrow">Kis Georgina pénzügyi, válási mediátor</span>
               <p className="lead">
                 Vízióm a tisztánlátás, őszinteség, hiszem, hogy a kezeletlen konfliktus
                 profit- és kapcsolatgyilkos.
