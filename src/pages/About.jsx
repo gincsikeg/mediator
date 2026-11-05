@@ -36,25 +36,27 @@ export default function About() {
               </p>
               <p>
                 Mediátor gyakorlati képzésemet mentoromnál, Komán Csilla mediátornál
-                szereztem. Az Umathum mediátor alap- és haladó képzését követően
-                különösen foglalkoztatott a mediáció pénzügyi vetülete. 2024 óta az
-                Igazságügyi Minisztérium közvetítői jegyzékében bejegyzett mediátorként
-                szerepelek. Angolul és olaszul is mediálok.
+                szereztem. Az Umathum mediátor akadémia alap- és haladó képzését követően
+                különösen foglalkoztatott a mediáció pénzügyi vetülete. Válási
+                mediátorként különösen fontos a gyermekek érdekei mellett a pénzügyi
+                szempontokat is figyelemmel kísérni és kezelni.
+              </p>
+              <p>
+                2024 óta az Igazságügyi Minisztérium közvetítői jegyzékében bejegyzett
+                mediátorként szerepelek. Angolul és olaszul is mediálok.
               </p>
               <p>
                 Évtizedes pénzintézeti auditor és projektmenedzsment tapasztalatot
-                szereztem, jelenleg a KKV szektor pénzügyi átvilágításával foglalkozom.
-              </p>
-              <p>
-                Válási mediátorként különösen fontos a gyermekek érdekei mellett a
-                pénzügyi szempontokat is figyelemmel kísérni és kezelni.
+                szereztem, valamint a KKV szektor pénzügyi átvilágításával is foglalkozom.
               </p>
               <p>
                 Pénzügyi mesterdiplomámat és fenntarthatósági végzettségemet a Corvinus
-                Egyetemen szereztem. Faültető önkéntes vagyok.
+                Egyetemen szereztem.
               </p>
+              <p>Szívügyem a faültetés, melyet önkéntesként végzek.</p>
               <p>
                 Van egy helyzet, ami megérett arra, hogy külső támogatást kérj?
+                <br />
                 Időpontegyeztetés: <a href="tel:+36706389702">+36706389702</a>
               </p>
               <Link to="/kapcsolat" className="btn btn-gold" style={{ marginTop: 12 }}>
