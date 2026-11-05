@@ -49,6 +49,7 @@ p { margin: 0 0 1em; }
   color: var(--gold);
   font-weight: 600;
 }
+.eyebrow-strong { font-size: 15px; font-weight: 800; letter-spacing: 0.2em; }
 
 .eyebrow-line { display: inline-flex; align-items: center; gap: 12px; }
 .eyebrow-line::before { content: ''; width: 44px; height: 1px; background: var(--gold); }
