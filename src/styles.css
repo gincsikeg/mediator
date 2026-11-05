@@ -96,7 +96,7 @@ p { margin: 0 0 1em; }
 }
 .brand { display: flex; align-items: baseline; gap: 10px; }
 .brand-name { font-family: var(--serif); font-weight: 600; font-size: 24px; color: var(--cream-strong); letter-spacing: 0.01em; }
-.brand-tag { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); }
+.brand-tag { font-size: 13px; font-weight: 800; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); }
 .nav-links { display: flex; align-items: center; gap: 28px; }
 .nav-links a { font-size: 14.5px; color: var(--muted-2); transition: color 0.2s ease; }
 .nav-links a:hover, .nav-links a.active { color: var(--gold-light); }
@@ -307,6 +307,7 @@ p { margin: 0 0 1em; }
 @media (max-width: 520px) {
   .wrap { padding: 0 20px; }
   .nav-inner { padding: 16px 20px; }
+  .brand-tag { font-size: 11px; letter-spacing: 0.14em; }
   .hero-actions { flex-direction: column; align-items: stretch; }
   .hero-actions .btn { width: 100%; }
 }
