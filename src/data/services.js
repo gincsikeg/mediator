@@ -24,24 +24,25 @@ export const services = [
     image: 'gina-meeting.png',
   },
   {
-    slug: 'parkapcsolati-mediacio',
-    label: 'Párkapcsolati mediáció',
-    tagline: 'Kapcsolódás és tisztánlátás',
+    slug: 'valas-utani-utokovetes-mediacio',
+    label: 'Válás utáni utókövetés mediáció',
+    tagline: 'Szülőtársként a válás után is',
     symbol: '♡',
-    short:
-      'Szeretnél pároddal igazán mélyen, játszmák nélkül kapcsolódni? Az őszinteség a kulcs, mediátorként olyan biztonságos teret teremtek, melyben új szempontok, megoldások születhetnek.',
-    intro:
-      'Az az érzésed, hogy nem tudtok egymáshoz kapcsolódni pároddal? A pénzügyek, vagy egy-egy program átbeszélése folyamatos vitákat szül? Visszatérő konfliktusaitok vannak? Hiszem, hogy a pillérek lefektetése és az őszinte, tisztázó mediációs ülések elvezetnek a tisztánlátáshoz, és a kapcsolat fejlődhet.',
+    short: 'A válással járó érzelmi kihívások feldolgozása.',
+    intro: [
+      'A válással járó érzelmi kihívások kihathatnak jövőbeli kapcsolódásainkra, ezért ezek feldolgozása elengedhetetlen.',
+      'A közös gyermekkel rendelkező elvált házastársak szülőtársak maradnak a válás kimondása után is, így a gyermekek és a felek érdeke az esetleges későbbi konfliktusok kezelése.',
+    ],
     forWhom: [
-      'Párok, akik veszekedés nélkül szeretnének a pénzről és a közös döntésekről beszélni.',
-      'Párok, akiknél egy-egy program vagy közös terv átbeszélése rendre vitába torkollik.',
-      'Bárki, aki szeretné megérteni, mi rejtőzik a visszatérő konfliktusok hátterében.',
+      'Elvált felek, akik szeretnék feldolgozni a válással járó érzelmi kihívásokat.',
+      'Szülőtársak, akiknek a válás után is együtt kell működniük a gyermekek érdekében.',
+      'Volt házastársak, akik között a válás után új konfliktusok merültek fel.',
     ],
     steps: [
       ['Biztonságos keret', 'Világos szabályok, semleges légkör, teljes titoktartás.'],
-      ['A háttér feltárása', 'Ránézünk arra, mi rejtőzik a visszatérő viták mögött.'],
-      ['A pillérek lefektetése', 'Közösen tesszük tisztába a kapcsolat alapjait.'],
-      ['Fellélegzés', 'A tisztánlátás után mindkét fél megkönnyebbül, a kapcsolat fejlődni kezd.'],
+      ['Feldolgozás', 'Teret adunk a válással járó érzelmi kihívásoknak.'],
+      ['Szülőtársi együttműködés', 'A gyermekek érdekét szem előtt tartva tisztázzuk a közös kérdéseket.'],
+      ['Konfliktuskezelés', 'A későbbi nézeteltéréseket is békés úton kezeljük.'],
     ],
     image: 'gina-parkapcsolat.jpg',
   },
