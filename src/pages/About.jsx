@@ -17,11 +17,11 @@ export default function About() {
           <p>
             A mediáció egy önkéntes, bíróságon kívüli konfliktuskezelési módszer,
             amelynek során a vitában álló felek egy semleges, pártatlan harmadik
-            személy – a mediátor támogatásával megegyezésre jutnak.
+            személy – a mediátor – támogatásával megegyezésre jutnak.
           </p>
           <p>
-            Az élet tele van konfliktussal, de a mi kezünkben van az ecset, ha most
-            lefesthené a bánatát milyen színre festené? Nálam van a paletta hozzá.
+            Az élet tele van konfliktussal, de a mi kezünkben van az ecset. Ha most
+            lefestené a bánatát, milyen színre festené? Nálam van a paletta hozzá.
             Jöjjön el mediációra, vagy tanácsadásra.
           </p>
         </div>
