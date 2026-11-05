@@ -21,7 +21,7 @@ export default function BlogPost() {
         <div className="wrap">
           <article className="article">
             <div className="article-hero-img">
-              <img src={img(post.image)} alt={post.title} />
+              <img src={img(post.image)} alt={post.title} style={{ objectPosition: post.imagePosition }} />
             </div>
             <p className="lead">{post.lead}</p>
             {post.body.map((block, i) => {

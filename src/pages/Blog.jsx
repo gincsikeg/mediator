@@ -18,7 +18,7 @@ export default function Blog() {
             {posts.map((p) => (
               <Link className="post-card" to={`/blog/${p.slug}`} key={p.slug}>
                 <div className="post-card-img">
-                  <img src={img(p.image)} alt={p.title} />
+                  <img src={img(p.image)} alt={p.title} style={{ objectPosition: p.imagePosition }} />
                 </div>
                 <div className="post-card-body">
                   <div className="post-meta">{p.category} · {p.date}</div>

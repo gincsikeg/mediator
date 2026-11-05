@@ -7,7 +7,9 @@ export const posts = [
     category: 'Válási mediáció',
     lead:
       'Válás előtt állnak, vagy már elkezdődött a folyamat? A szétválás érzelmileg és anyagilag is megterhelő, de nem kell, hogy háborúvá váljon.',
-    image: 'gina-kezfogas.jpg',
+    image: 'valasi-mediacio.jpg',
+    // álló fotó: a széles kivágásban az arc látsszon
+    imagePosition: '50% 12%',
     body: [
       { type: 'p', text: 'A mediáció során egy semleges, pártatlan közvetítő támogatja Önöket abban, hogy saját maguk alakítsák ki a közös megállapodást, nyugodt és biztonságos keretek között.' },
       { type: 'h', text: 'Miben támogat a mediáció?' },

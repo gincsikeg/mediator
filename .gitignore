@@ -11,3 +11,6 @@ yarn-error.log*
 
 # Munka dokumentumok
 *.docx
+
+# Eredeti, nagy méretű fotók (a weboldal a lekicsinyített másolatot használja)
+public/images/_DSC*
