@@ -12,8 +12,6 @@ export default function About() {
     <>
       <section className="page-hero">
         <div className="wrap">
-          <span className="eyebrow eyebrow-line">Rólam</span>
-          <h1>A közvetítő, aki a<br />megoldásban hisz.</h1>
           <p>
             A mediáció egy önkéntes, bíróságon kívüli konfliktuskezelési módszer,
             amelynek során a vitában álló felek egy semleges, pártatlan harmadik
