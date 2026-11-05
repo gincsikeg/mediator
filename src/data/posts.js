@@ -1,6 +1,35 @@
 // Blogbejegyzések. A "body" blokkok tömbje: {type: 'p' | 'h' | 'ul', ...}
 export const posts = [
   {
+    slug: 'valasi-mediacio-megegyezes-pereskedes-helyett',
+    title: 'Válási mediáció – megegyezés pereskedés helyett',
+    date: '2026. november 5.',
+    category: 'Válási mediáció',
+    lead:
+      'Válás előtt állnak, vagy már elkezdődött a folyamat? A szétválás érzelmileg és anyagilag is megterhelő, de nem kell, hogy háborúvá váljon.',
+    image: 'gina-kezfogas.jpg',
+    body: [
+      { type: 'p', text: 'A mediáció során egy semleges, pártatlan közvetítő támogatja Önöket abban, hogy saját maguk alakítsák ki a közös megállapodást, nyugodt és biztonságos keretek között.' },
+      { type: 'h', text: 'Miben támogat a mediáció?' },
+      { type: 'ul', items: [
+        'a gyermekek elhelyezése, a kapcsolattartás és a gyermektartás rendezése',
+        'a közös vagyon megosztása (ingatlan, megtakarítások, vállalkozás)',
+        'hitelek, tartozások és egyéb pénzügyi kötelezettségek rendezése',
+        'a jövőbeli együttműködés kereteinek kialakítása',
+      ] },
+      { type: 'h', text: 'Miért érdemes a mediációt választani?' },
+      { type: 'ul', items: [
+        'Gyorsabb és olcsóbb, mint egy hosszan elhúzódó bírósági eljárás',
+        'Bizalmas: ami a mediáción elhangzik, az ott is marad',
+        'Önök döntenek: a megállapodást nem kívülálló hozza meg, hanem Önök',
+        'A gyermekek érdekét szolgálja, mert csökkenti a konfliktust',
+        'Pénzügyi szakértelem: pénzügyi végzettségű mediátorként a vagyoni és anyagi kérdésekben is szakszerű, átlátható támogatást nyújtok',
+      ] },
+      { type: 'p', text: 'Az első konzultáció során megismerhetik a folyamatot, és eldönthetik, hogy Önöknek megfelelő-e ez az út.' },
+      { type: 'p', text: 'Hívjanak bizalommal: +36706389702' },
+    ],
+  },
+  {
     slug: 'lathatatlan-profitfalo-gazdasagi-mediacio',
     title:
       'A láthatatlan profitfaló: hogyan menti meg a céges büdzsét és a hírnevet a gazdasági mediáció?',
