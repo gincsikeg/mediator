@@ -31,26 +31,12 @@ export default function About() {
             <div>
               <span className="eyebrow">Kis Georgina pénzügyi, válási mediátor</span>
               <p className="lead">
-                Mediátorként hajtóerőm, hogy minden szituációban tisztán lássák a felek
-                önmagukat. A kapcsolatok, folyamatok, hatáskörök és pénzügyek
-                tisztázatlansága, valamint a kezeletlen konfliktus profit- és
-                kapcsolatgyilkos.
+                Vízióm a tisztánlátás, őszinteség, hiszem, hogy a kezeletlen konfliktus
+                profit- és kapcsolatgyilkos.
               </p>
               <p>
-                Évtizedes pénzintézeti auditori és projektmenedzsment háttérrel
-                rendelkezem, KKV-k pénzügyi átvilágítása során szereztem tapasztalatomat.
-              </p>
-              <p>
-                Mesterdiplomámat pénzügyből szereztem, kereskedelmi és fenntarthatósági
-                tanulmányokat folytattam. Mediátori végzettségemet az Umathum Mediátor
-                Akadémián szereztem. Komán Csillánál mediációs és üzleti gyakorlati
-                képzésben mélyedtem el, aki jelenleg is a mentorom. 2024 óta működöm az
-                Igazságügyi Minisztérium névjegyzékében bejegyzett mediátorként.
-              </p>
-              <p>
-                Budapesten dolgozom, hétköznap 8:00 és 18:00 között, személyesen és
-                online egyaránt. Mediálok angolul és olaszul is, és faültető önkéntes
-                vagyok.
+                Van egy helyzet, ami megérett arra, hogy külső támogatást kérj?
+                Időpontegyeztetés: <a href="tel:+36706389702">+36706389702</a>
               </p>
               <Link to="/kapcsolat" className="btn btn-gold" style={{ marginTop: 12 }}>
                 Ismerjük meg egymást
