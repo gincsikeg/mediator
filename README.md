@@ -9,7 +9,7 @@ React + Vite + React Router (BrowserRouter) alapú, statikusan (pl. **GitHub Pag
 - **Szolgáltatások** + három aloldal:
   - Pénzügyi átvilágítás
   - Pénzügyi mediáció
-  - Válási, válás utáni utókövetés mediáció
+  - Válási, válás utókövetés mediáció
 - **Blog** (2 cikkel) + cikk-oldalak
 - **Kapcsolat** időpontfoglaló űrlappal
 - Reszponzív (mobil menüvel), egyedi 404 oldal

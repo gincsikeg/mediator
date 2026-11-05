@@ -24,8 +24,8 @@ export const services = [
     image: 'gina-meeting.png',
   },
   {
-    slug: 'valas-utani-utokovetes-mediacio',
-    label: 'Válás utáni utókövetés mediáció',
+    slug: 'valas-utokovetes-mediacio',
+    label: 'Válás utókövetés mediáció',
     tagline: 'Szülőtársként a válás után is',
     symbol: '♡',
     short: 'A válással járó érzelmi kihívások feldolgozása.',
@@ -119,7 +119,7 @@ export const services = [
 
 // Áraink – a Szolgáltatások oldalon és a részletező kártyákban jelenik meg.
 export const pricing = [
-  ['Válási, válás utáni utókövetés mediáció', '20.000 Ft / fő / óra'],
+  ['Válási, válás utókövetés mediáció', '20.000 Ft / fő / óra'],
   ['Pénzügyi, gazdasági mediáció', '50.000 Ft / óra'],
   ['Cégátvilágítás és faültető mediáció', 'egyedi igény alapján'],
 ]

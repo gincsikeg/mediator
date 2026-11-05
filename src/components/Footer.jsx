@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="brand-tag">pénzügyi mediátor</span>
             </div>
             <p style={{ maxWidth: 320 }}>
-              Gazdasági és magánéleti pénzügyi mediáció, válási és válás utáni utókövetés
+              Gazdasági és magánéleti pénzügyi mediáció, válási és válás utókövetés
               mediáció Budapesten. Konfliktus helyett közös megoldás – diszkréten,
               gyorsan, méltósággal.
             </p>
