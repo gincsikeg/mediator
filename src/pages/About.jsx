@@ -15,13 +15,14 @@ export default function About() {
           <span className="eyebrow eyebrow-line">Rólam</span>
           <h1>A közvetítő, aki a<br />megoldásban hisz.</h1>
           <p>
-            „Az Önök élete és kapcsolatai egy olyan vászon, amelyet a konfliktusok
-            elszürkíthetnek ugyan, de a paletta és az ecsetek továbbra is az Önök
-            kezében vannak. Mediátorként nem én mondom meg, milyen legyen a kép, és
-            nem hozok szabályokat. Az én feladatom az, hogy tiszta lapot biztosítsak,
-            és lehetőséget teremtsek újra felfedezni a végtelen lehetőségeket. Együtt
-            képesek vagyunk feloldani a korlátokat, hogy Önök olyan megoldást
-            fessenek meg, amelyben újra otthonosan és békében érezhetik magukat.”
+            A mediáció egy önkéntes, bíróságon kívüli konfliktuskezelési módszer,
+            amelynek során a vitában álló felek egy semleges, pártatlan harmadik
+            személy – a mediátor támogatásával megegyezésre jutnak.
+          </p>
+          <p>
+            Az élet tele van konfliktussal, de a mi kezünkben van az ecset, ha most
+            lefesthené a bánatát milyen színre festené? Nálam van a paletta hozzá.
+            Jöjjön el mediációra, vagy tanácsadásra.
           </p>
         </div>
       </section>
