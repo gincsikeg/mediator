@@ -77,9 +77,6 @@ export default function Services() {
               </div>
             ))}
           </div>
-          <p className="center" style={{ color: 'var(--muted)', fontSize: 14.5, marginTop: 24 }}>
-            Az első konzultáció ingyenes és semmire nem kötelez.
-          </p>
         </div>
       </section>
 
