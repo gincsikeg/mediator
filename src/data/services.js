@@ -24,29 +24,6 @@ export const services = [
     image: 'gina-meeting.png',
   },
   {
-    slug: 'valas-utokovetes-mediacio',
-    label: 'Válás utókövetés mediáció',
-    tagline: 'Szülőtársként a válás után is',
-    symbol: '♡',
-    short: 'A válással járó érzelmi kihívások feldolgozása.',
-    intro: [
-      'A válással járó érzelmi kihívások kihathatnak jövőbeli kapcsolódásainkra, ezért ezek feldolgozása elengedhetetlen.',
-      'A közös gyermekkel rendelkező elvált házastársak szülőtársak maradnak a válás kimondása után is, így a gyermekek és a felek érdeke az esetleges későbbi konfliktusok kezelése.',
-    ],
-    forWhom: [
-      'Elvált felek, akik szeretnék feldolgozni a válással járó érzelmi kihívásokat.',
-      'Szülőtársak, akiknek a válás után is együtt kell működniük a gyermekek érdekében.',
-      'Volt házastársak, akik között a válás után új konfliktusok merültek fel.',
-    ],
-    steps: [
-      ['Biztonságos keret', 'Világos szabályok, semleges légkör, teljes titoktartás.'],
-      ['Feldolgozás', 'Teret adunk a válással járó érzelmi kihívásoknak.'],
-      ['Szülőtársi együttműködés', 'A gyermekek érdekét szem előtt tartva tisztázzuk a közös kérdéseket.'],
-      ['Konfliktuskezelés', 'A későbbi nézeteltéréseket is békés úton kezeljük.'],
-    ],
-    image: 'gina-parkapcsolat.jpg',
-  },
-  {
     slug: 'valasi-mediacio',
     label: 'Válási mediáció',
     tagline: 'Méltósággal, a gyermekekért',
@@ -70,6 +47,29 @@ export const services = [
       ['Írásos megegyezés', 'A felek írásban is megkapják a megállapodást – a bíróságon nincs meglepetés.'],
     ],
     image: null,
+  },
+  {
+    slug: 'valas-utokovetes-mediacio',
+    label: 'Válás utókövetés mediáció',
+    tagline: 'Szülőtársként a válás után is',
+    symbol: '♡',
+    short: 'A válással járó érzelmi kihívások feldolgozása.',
+    intro: [
+      'A válással járó érzelmi kihívások kihathatnak jövőbeli kapcsolódásainkra, ezért ezek feldolgozása elengedhetetlen.',
+      'A közös gyermekkel rendelkező elvált házastársak szülőtársak maradnak a válás kimondása után is, így a gyermekek és a felek érdeke az esetleges későbbi konfliktusok kezelése.',
+    ],
+    forWhom: [
+      'Elvált felek, akik szeretnék feldolgozni a válással járó érzelmi kihívásokat.',
+      'Szülőtársak, akiknek a válás után is együtt kell működniük a gyermekek érdekében.',
+      'Volt házastársak, akik között a válás után új konfliktusok merültek fel.',
+    ],
+    steps: [
+      ['Biztonságos keret', 'Világos szabályok, semleges légkör, teljes titoktartás.'],
+      ['Feldolgozás', 'Teret adunk a válással járó érzelmi kihívásoknak.'],
+      ['Szülőtársi együttműködés', 'A gyermekek érdekét szem előtt tartva tisztázzuk a közös kérdéseket.'],
+      ['Konfliktuskezelés', 'A későbbi nézeteltéréseket is békés úton kezeljük.'],
+    ],
+    image: 'gina-parkapcsolat.jpg',
   },
   {
     slug: 'penzugyi-atvilagitas-szervezeti-mediacio',
